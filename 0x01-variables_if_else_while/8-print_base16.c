@@ -3,8 +3,9 @@
 #include <time.h>
 
 /**
- *
- *
+ *main - entry point
+ *numbers of base 16 inlowercase
+ *Return: 0 (success)
  */
 
 int main(void)
@@ -21,6 +22,6 @@ int main(void)
 	pitchar(low);
 	putchar('\n');
 
-	return (0)
+	return (0);
 
-}		
+}
