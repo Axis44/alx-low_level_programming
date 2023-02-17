@@ -1,10 +1,11 @@
 #include <stdio.h>
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
- *
- *
+ *main - entry point
+ *single digit numbers of base 10
+ *Return: 0 (success)
  */
 
 int main(void)
@@ -18,4 +19,4 @@ int main(void)
 	printf("\n");
 
 	return (0);
-}	
+}
