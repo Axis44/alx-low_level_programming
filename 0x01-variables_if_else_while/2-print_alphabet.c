@@ -1,8 +1,8 @@
-#iclude <stdio.h>
+#include <stdio.h>
 /**
- *
- *
- *
+ *main - putchar
+ *alphabets
+ *Return: 0 (success)
  */
 int main(void)
 {
@@ -15,4 +15,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
