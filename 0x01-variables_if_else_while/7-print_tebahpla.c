@@ -1,10 +1,11 @@
 #include <stdio.h>
-#include <stdib.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
- *
- *
+ *main - entry point
+ *lowercase alphabet in reverse
+ *Return: 0 (success)
  */
 
 int main(void)
@@ -12,10 +13,10 @@ int main(void)
 
 	char low;
 
-	for (low = 'z'; low >='a'; low --)
+	for (low = 'z'; low >= 'a'; low--)
 	putchar(low);
 	putchar('\n');
 
 	return (0);
 
-}	
+}
