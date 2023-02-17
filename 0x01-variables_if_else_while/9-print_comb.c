@@ -3,8 +3,9 @@
 #include <time.h>
 
 /**
- *
- *
+ *main - entry point
+ *possible combinations of single digit numbers
+ *Return: 0 (success)
  */
 
 int main(void)
@@ -23,5 +24,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-
-}	
+}
