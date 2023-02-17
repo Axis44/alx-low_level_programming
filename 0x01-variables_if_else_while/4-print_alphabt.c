@@ -1,10 +1,11 @@
 #include <stdio.h>
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
- *
- *
+ *main - entry point
+ *lowercase alphabet followed by new line
+ *Return: 0 (success)
  */
 
 int main(void)
