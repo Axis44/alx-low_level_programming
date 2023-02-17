@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdio.h>
 /**
- *
- *
- *
- *
+ *main - random number to variable
+ *print last digit
+ *Return: 0 (success)
  */
 int main(void)
 {
@@ -25,4 +24,4 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0);
-}	
+}
