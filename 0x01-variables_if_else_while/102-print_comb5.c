@@ -1,22 +1,43 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
- * main - prints all combinations of single digit
+ * main - entry point
+ * prints all possible combinations of two digit numbers
  * Return: 0 (success)
  */
 
 int main(void)
 {
-	int c = 0;
-	int f_d;
-	int l_d;
-
-	int c2;
-	int f_d2;
-	int l-d2;
-
-	while (c <= 98)
+	int c, i, k, j;
+	for (c = 48; c <= 57; c++)
 	{
-		f_d = (c /10 + '0');
-		l_d = (c % 10 + '0');
-		c2 = 0;
+	for (i = 48; i <= 57; i++)
+	{
+	for (k = 48; k <= 57; k++)
+	{
+	for (j = 48; j <= 57; j++)
+	{
+	if (((k + j) > (c + i) && k >= c) || c < k)
+	{
+	putchar(c);
+	putchar(i);
+	putchar(' ');
+	putchar(k);
+	putchar(j);
+	if (c + i + k + j == 227 && c == 57)
+	{
+	break;
+	}
+	else
+	{
+	putchar(',');
+	putchar(' ');
+	}
+	}
+	}
+	}
+	}
+	}
+	putchar('\n');
+	return (0);
+}
