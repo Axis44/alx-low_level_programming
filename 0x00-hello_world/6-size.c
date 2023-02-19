@@ -12,7 +12,7 @@ char aType;
 int bType;
 long int cType;
 long long int dType;
-float fTtype;
+float fType;
 printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(aType));
 printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(bType));
 printf("size of a long int: %lu byte(s)\n", (unsigned long)sizeof(cType));
