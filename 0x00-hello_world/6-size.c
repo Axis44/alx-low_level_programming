@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 /**
-*main - function of various sizes
-*all types
-*Return:0 success
+*main - entry point
+*prints all sizes
+*Return:0 (success)
 */
 int main(void)
 {
@@ -12,7 +12,7 @@ int b;
 long int c;
 long long int d;
 float f;
-printf("Size of a char: %zu byte(s)\n",(unsigned long)sizeof(a));
+printf("Size of a char: %zu byte(s)\n", (unsigned long)sizeof(a));
 printf("Size of an int: %zu byte(s)\n", (unsigned long)sizeof(b));
 printf("size of a long int: %zu byte(s)\n", (unsigned long)sizeof(c));
 printf("Size of a long long int: %zu byte(s)\n", (unsigned long)sizeof(d));
