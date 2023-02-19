@@ -2,7 +2,7 @@
 
 /**
 *main - entry point
-*prints all sizes
+*all sizes
 *Return:0 (success)
 */
 int main(void)
