@@ -7,15 +7,15 @@
 
 int main(void)
 {
-char charType;
-int intType;
-long int longType;
-long long int doubleType;
-float floatType;
-printf("Size of char: %zu bytes\n", sizeof(charType));
-printf("Size of int: %zu bytes\n", sizeof(intType));
-printf("size of long int: %zu bytes\n", sizeof(longType));
-printf("Size of long long int: %zu bytes\n", sizeof(doubleType));
-printf("Size of float: %zu byte\n", sizeof(floatType));
+char a;
+int b;
+long int c;
+long long int d;
+float f;
+printf("Size of char: %lu bytes\n", (unsigned long)sizeof(a));
+printf("Size of int: %lu bytes\n", (unsigned long)sizeof(b));
+printf("size of long int: %lu bytes\n", (unsigned long)sizeof(c));
+printf("Size of long long int: %lu bytes\n", (unsigned long)sizeof(d));
+printf("Size of float: %lu byte\n", (unsigned long)sizeof(e));
 return (0);
 }
