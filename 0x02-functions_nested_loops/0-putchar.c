@@ -1,8 +1,8 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- *main - entry point
- * program that _prints putchar followed by new line
+ *Main - entry point
+ *program that _prints putchar followed by new line
  *Return: 0 (success)
  */
 
