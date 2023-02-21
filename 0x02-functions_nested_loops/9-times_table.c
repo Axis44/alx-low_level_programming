@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * times_table -  a function that prints the 9 times table, starting with 0
@@ -8,16 +8,16 @@
  */
 void times_table(void)
 {
-	int rone, cone, d;
+	int i, p, d;
 
-	for (rone = 0; rone <= 9; rone++)
+	for (i = 0; i <= 9; i++)
 	{
 		_putchar('0');
 		_putchar(',');
 		_putchar(' ');
-		for (cone = 1; cone <= 9; cone++)
+		for (p = 1; p <= 9; p++)
 		{
-			d = (rone * cone);
+			d = (i * p);
 			if ((d / 10) > 0)
 			{
 				_putchar((d / 10) + '0');
@@ -28,7 +28,7 @@ void times_table(void)
 			}
 			_putchar((d % 10) + '0');
 
-			if (cone < 9)
+			if (p < 9)
 			{
 				_putchar(',');
 				_putchar(' ');
