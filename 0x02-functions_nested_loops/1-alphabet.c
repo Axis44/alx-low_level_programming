@@ -1,20 +1,15 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
  *main - entry point
  *function that prints the alphabets in lowercase
- *Return: 0 (success)
+ *Return: 0 success
  */
-
 int main(void)
 {
+	char letter;
+for(letter = 'a'; letter <= 'z'; letter++)
+	_putchar(letter);
 
-	int n;
-
-	for (n = 'a'; n <= 'z'; n++)
-	{
-		_putchar(n);
-	}
 	_putchar('\n');
 }
