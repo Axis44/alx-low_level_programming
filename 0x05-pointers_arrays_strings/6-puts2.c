@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- *main - prints character of a string with first character
+ *puts2 - prints string with first character
+ * starting first character
  * @str: input
  * Return: print
  */
