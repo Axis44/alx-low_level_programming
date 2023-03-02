@@ -5,26 +5,25 @@
  * @dest: input value
  * @src: input value
  * @n: input value
- *
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	char zun;
-	char ley;
+	int l;
+	int m;
 
-	zun = 0;
-	while (dest[zun] != '\0')
+	l = 0;
+	while (dest[l] != '\0')
 	{
-		zun++;
+		l++;
 	}
-	ley = 0;
-	while (ley < n && src[ley] != '\0')
+	m = 0;
+	while (m < n && src[m] != '\0')
 	{
-	dest[zun] = src[ley];
-	zun++;
-	ley++;
+	dest[l] = src[m];
+	l++;
+	m++;
 	}
-	dest[zun] = '\0';
+	dest[l] = '\0';
 	return (dest);
 }
