@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *argstostr - main entry
+ *argstostr - argument entry string
  *@ac: int input
  *@av: double pointer array
  *return: 0
