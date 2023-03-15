@@ -5,7 +5,7 @@
  *argstostr - argument entry string
  *@ac: int input
  *@av: double pointer array
- *return: 0
+ *Return: 0
  */
 
 char *argstostr(int ac, char **av)
