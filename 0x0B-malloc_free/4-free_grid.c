@@ -4,8 +4,8 @@
 
 /**
  *free_grid - frees 2D array
- *@grid - 2d grid
- *height: dimensions of grid
+ *@grid: 2d grid
+ *@height: dimensions of grid
  *Description: frees memory of grid
  *Return: nothing
  */
